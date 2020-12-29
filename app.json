@@ -1,12 +1,28 @@
 {
-  "name": "instapromo",
-  "displayName": "instapromo",
+  "name": "Instapromo",
+  "displayName": "displayName",
   "expo": {
-    "name": "instapromo",
-    "slug": "instapromo",
+    "name": "Instapromo",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#312e38"
+    },
+    "slug": "promoattitude-instapromo",
     "version": "1.0.0",
+    "orientation": "portrait",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "ios": {
+      "bundleIdentifier": "com.promoattitude.instapromo",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.promoattitude.instapromo",
+      "versionCode": 1
+    },
+    "description": "Clone do Instagram ao modo Promo Attitude"
   }
 }
